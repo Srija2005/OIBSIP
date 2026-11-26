@@ -220,20 +220,29 @@ footer {
 }
 
 .story-container {
-    display: flex;
+    
     align-items: center;
     gap: 40px;
-    padding: 30px;
-    border-radius: 25px;
-    text-align: left;
+    padding: 10px;
+    border-radius: 15px;
+   /*  */
+   /*  */
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
 }
 .story-image img {
-    width: 100%;
-    height: 350px;
+    
+   
+    width: 75%;
+    max-width: 750px;
+    height: 260px;
     object-fit: cover;
-    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+
 }
+
+
 
 .story-content {
     flex: 1.3;
@@ -255,7 +264,7 @@ footer {
     padding: 30px;
     
     border-radius: 25px;
-    text-align: left;
+    
 }
 
 
