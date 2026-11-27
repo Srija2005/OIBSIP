@@ -44,7 +44,7 @@ It allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin.
 - Task: Task 3 – Temperature Converter
 
 ## Developed By
-Srija Deenadhayalan
+Srija 
 
 ## Acknowledgement
 Thank you to Oasis Infobyte for providing this opportunity to improve my web development skills.
