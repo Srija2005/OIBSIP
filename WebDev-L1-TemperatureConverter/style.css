@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #101B3D);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #111827;
+    width: 90%;
+    max-width: 450px;
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(96, 165, 250, 0.2);
+}
+
+h1 {
+    color: #60A5FA;
+    margin-bottom: 10px;
+}
+
+.container > p {
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 8px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #60A5FA;
+    border-radius: 8px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563EB;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1D4ED8;
+}
+
+#clearBtn {
+    background-color: #374151;
+}
+
+#clearBtn:hover {
+    background-color: #4B5563;
+}
+
+#result {
+    margin-top: 25px;
+    padding: 18px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 1px solid #2563EB;
+}
+
+#result h2 {
+    color: #60A5FA;
+    margin-bottom: 15px;
+}
+
+#result p {
+    margin: 12px 0;
+    font-size: 17px;
+}
+
+#error {
+    color: #F87171;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+#history {
+    margin-top: 25px;
+    padding: 18px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 1px solid #2563EB;
+    text-align: left;
+}
+
+#history h2 {
+    color: #60A5FA;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#historyList {
+    list-style: none;
+    padding: 0;
+}
+
+#historyList li {
+    background-color: #111827;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 3px solid #60A5FA;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+#clearHistoryBtn {
+    background-color: #1352c6;
+}
+
+#clearHistoryBtn:hover {
+    background-color: #1352c6;
+}
